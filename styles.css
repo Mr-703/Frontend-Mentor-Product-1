@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+.body {
+  background-color: hsl(30, 38%, 92%);
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+h1 {
+  color: hsl(228, 12%, 48%);
+  font-size: 20px;
+  padding-left: 2vw;
+  letter-spacing: 1vh;
+  padding-top: 1vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: white;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  height: 10vh;
+  width: 40vh;
+  font-size: 3vh;
+  margin-left: 2.6vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  bottom: 4vh;
+}
+.textDiv {
+  max-height: 80vh;
+  max-width: 50vh;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 10vh;
+}
+
+.titleG {
+  font-size: 5vh;
+  padding-left: 2vw;
+  margin-right: 8vw;
+  font-family: "Fraunces", serif;
+}
+
+.bottlePic {
+  max-height: 80vh;
+  max-width: 40vw;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 10vh;
+}
+.price {
+  color: hsl(158, 36%, 37%);
+  font-size: 7vh;
+  padding-left: 2vw;
+  font-family: "Fraunces", serif;
+}
+.miniPrice {
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-size: 2vh;
+  padding-right: 2vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  position: relative;
+  bottom: 1.3vh;
+}
+.text {
+  font-size: 2.5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: hsl(228, 12%, 48%);
+  margin-right: 1.5vw;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cart {
+  height: 20px;
+  padding-right: 10px;
+}
+
+.attribution {
+  color: hsl(158, 36%, 37%);
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-family: "Fraunces", serif;
+}
