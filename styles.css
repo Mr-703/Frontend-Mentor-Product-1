@@ -36,6 +36,14 @@ button {
   text-align: center;
   position: relative;
   bottom: 4vh;
+  transition: 0.1s;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.992);
+  background-color: rgba(26, 65, 49, 255);
 }
 .textDiv {
   max-height: 80vh;
@@ -59,6 +67,10 @@ button {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-top: 10vh;
+  display: block;
+}
+.phoneBottlePic {
+  display: none;
 }
 .price {
   color: hsl(158, 36%, 37%);
@@ -96,4 +108,133 @@ button {
   justify-content: center;
   text-align: center;
   font-family: "Fraunces", serif;
+}
+
+/* Mobile */
+@media all and (max-width: 500px) {
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+  .body {
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+    height: 100vh;
+  }
+  .container {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  h1 {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    padding-left: 3vw;
+    letter-spacing: 1vh;
+    padding-top: 2vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    height: 65px;
+    width: 320px;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+    /* margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 0%;
+    padding-right: 0%; */
+  }
+
+  .textDiv {
+    max-height: 60vh;
+    max-width: 50vh;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* .textDivPos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 10px;
+  } */
+
+  .titleG {
+    font-size: 37px;
+    padding-left: 2vw;
+    font-family: "Fraunces", serif;
+  }
+  .bottlePic {
+    display: none;
+  }
+
+  .phoneBottlePic {
+    display: block;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .price {
+    color: hsl(158, 36%, 37%);
+    font-size: 37px;
+    padding-left: 2vw;
+    font-family: "Fraunces", serif;
+  }
+  .miniPrice {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 2vh;
+    padding-right: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: relative;
+    bottom: 1.3vh;
+  }
+  .text {
+    font-size: 2.5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: hsl(228, 12%, 48%);
+    margin-right: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .cart {
+    height: 20px;
+    padding-right: 10px;
+  }
+
+  .attribution {
+    color: hsl(158, 36%, 37%);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-family: "Fraunces", serif;
+  }
 }
